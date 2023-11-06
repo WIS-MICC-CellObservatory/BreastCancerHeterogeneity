@@ -22,7 +22,7 @@
  * 
  * script originaly named: RunStarDistOpenCV_And_CellClassification_ForProjects.groovy
  * 
- * /
+ */
 
 import qupath.ext.stardist.StarDist2D
 

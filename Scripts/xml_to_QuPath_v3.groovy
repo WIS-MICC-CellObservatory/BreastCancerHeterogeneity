@@ -33,11 +33,13 @@ import qupath.lib.regions.*
 
 import qupath.lib.objects.classes.*
 
-String xmlDirectory = 'A:/vishnum/protemics_region_annotation/BC7'
-String xmlFileName = 'A:/vishnum/protemics_region_annotation/BC7/mmbc7_1-4_Her2_005138f0-24cc-432b-b7b9-0cb62095e5f7.xml'
+String xmlDirectory = 'A:/vishnum/For_GitHub'
+String xmlFileName = 'A:/vishnum/For_GitHub/BC5_1-14_11448-12_Set2.xml'
+//String xmlFileName = 'A:/vishnum/For_GitHub/BC31_1-2_6548-13_Set2.xml'
 
-boolean use_xmlDir = true
-boolean use_xmlFileName = false
+
+boolean use_xmlDir = false
+boolean use_xmlFileName = true
 boolean use_EllipseROI = false  // by default assume the ROI is given as polygon, if use_EllipseROI==true  assume the ROI is given as Ellipsoid 
 
 def server = getCurrentImageData().getServer()
@@ -58,7 +60,8 @@ else
 File fileMask = new File(maskFilename)
 if(!fileMask.exists() || use_xmlDir) {
     print(maskFilename + ' does not exist or use_xmlDir is set')
-	maskFilename = xmlDirectory + File.separator + File.separator + name + '.xml'
+	//maskFilename = xmlDirectory + File.separator + File.separator + name + '.xml'
+	maskFilename = xmlDirectory + File.separator + name + '.xml'
 	//maskFilename = maskFilename.replaceFirst('[\\.].*$',customSuffix)
 	fileMask = new File(maskFilename)
 }

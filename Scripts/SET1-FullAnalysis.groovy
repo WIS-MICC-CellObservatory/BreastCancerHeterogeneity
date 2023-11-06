@@ -22,7 +22,7 @@
  * 
  * script originaly named: SET1-FullAnalysis_ForProjects_final-MeasureBVInWholeTissue.groovy
  * 
- * /
+ */
 
 import qupath.ext.stardist.StarDist2D
 
@@ -44,7 +44,7 @@ def expand_radius2_um = 100.0
 def RBCClassifierName = 'RBC-Classifier-FromStarDist-WithExpansion'
 def CellClassifierName = 'alphaSMA-calssifier-4'
 
-//def SelectedObjectClass = 'WholeTissue'  // Class of Annotation for Analysis
+def SelectedObjectClass = 'WholeTissue'  // "ExactTissue" // Class of Annotation for Analysis
 
 def NucChannel = 'Nuclei'
 def ProbabilityThreshold = 0.5
@@ -92,9 +92,11 @@ def name = GeneralTools.getNameWithoutExtension(imageData.getServer().getMetadat
 
 if (imageData.ImageType == ImageData.ImageType.FLUORESCENCE) 
 {
-    // Automatically detect the whole tissue using trained Pixel classifier (WholeTissue_PixelClassifier) 
-    createAnnotationsFromPixelClassifier(WholeTissue_PixelClassifier, Minimum_WT_ObjectSize, Minimum_WT_LumenSize, "SELECT_NEW")
-
+    /* if (RunExactTissuePixelClassifier == 1)
+    {
+        // Automatically detect the whole tissue using trained Pixel classifier (WholeTissue_PixelClassifier) 
+        createAnnotationsFromPixelClassifier(WholeTissue_PixelClassifier, Minimum_WT_ObjectSize, Minimum_WT_LumenSize, "SELECT_NEW")
+    } */   
     if (deletePreviousDetections == 1) 
     {
         print("Image: " + name + " - Deleting previous objects")
@@ -103,8 +105,8 @@ if (imageData.ImageType == ImageData.ImageType.FLUORESCENCE)
     
     // Select WholeTissue Annotation
     resetSelection()
-    //selectObjectsByClassification(SelectedObjectClass);
-    selectObjectsByClassification("ExactTissue");
+    selectObjectsByClassification(SelectedObjectClass);
+    //selectObjectsByClassification("ExactTissue");
     
     def pathObjects = getSelectedObjects()
     
