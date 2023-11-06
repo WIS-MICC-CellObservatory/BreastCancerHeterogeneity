@@ -93,14 +93,14 @@ QuPath Warpy extension: 0.2.0
 Fiji Warpy plugin:
 
 ## References 
-[1] *Warpy* : Chiaruttini N, Burri O, Haub P, Guiet R, Sordet-Dessimoz J and Seitz A (2022) An Open-Source Whole Slide Image Registration Workflow at Cellular Precision Using Fiji, QuPath and Elastix. Front. Comput. Sci. 3:780026. doi: 10.3389/fcomp.2021.780026
+[1] *Warpy* : Chiaruttini N, Burri O, Haub P, Guiet R, Sordet-Dessimoz J and Seitz A (2022) An Open-Source Whole Slide Image Registration Workflow at Cellular Precision Using Fiji, QuPath and Elastix. Front. Comput. Sci. 3:780026. doi: 10.3389/fcomp.2021.780026 <br>
 [2] *QuPath* : Bankhead, P. et al. QuPath: Open source software for digital pathology image analysis. Scientific Reports (2017).
-https://doi.org/10.1038/s41598-017-17204-5 
-[3] *Fiji* : Schindelin, J., Arganda-Carreras, I., Frise, E., Kaynig, V., Longair, M., Pietzsch, T., et al. (2012). Fiji: an Open-Source Platform for Biological-Image Analysis. Nat. Methods 9, 676–682. doi:10.1038/nmeth.2019
-[4] *elstix* : Klein, S., Staring, M., Murphy, K., Viergever, M. A., and Pluim, J. (2010). Elastix: A Toolbox for Intensity-Based Medical Image Registration. IEEE Trans. Med. Imaging 29, 196–205. doi:10.1109/TMI.2009.2035616
-[5] *elstix* : Shamonin, D. (2013). Fast Parallel Image Registration on CPU and GPU for Diagnostic Classification of Alzheimer's Disease. Front. Neuroinform. 7. doi:10.3389/fninf.2013.00050
-[6] *StarDist* : Uwe Schmidt, Martin Weigert, Coleman Broaddus, and Gene Myers. Cell Detection with Star-convex Polygons. International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), Granada, Spain, September 2018.
-[7] *ZeroCostDL4Mic* : Lucas von Chamier*, Romain F. Laine*, Johanna Jukkala, Christoph Spahn, Daniel Krentzel, Elias Nehme, Martina Lerche, Sara Hernández-pérez, Pieta Mattila, Eleni Karinou, Séamus Holden, Ahmet Can Solak, Alexander Krull, Tim-Oliver Buchholz, Martin L Jones, Loic Alain Royer, Christophe Leterrier, Yoav Shechtman, Florian Jug, Mike Heilemann, Guillaume Jacquemet, Ricardo Henriques. Democratising deep learning for microscopy with ZeroCostDL4Mic. Nature Communications, 2021. DOI: https://doi.org/10.1038/s41467-021-22518-0
+https://doi.org/10.1038/s41598-017-17204-5 <br>
+[3] *Fiji* : Schindelin, J., Arganda-Carreras, I., Frise, E., Kaynig, V., Longair, M., Pietzsch, T., et al. (2012). Fiji: an Open-Source Platform for Biological-Image Analysis. Nat. Methods 9, 676–682. doi:10.1038/nmeth.2019 <br>
+[4] *elstix* : Klein, S., Staring, M., Murphy, K., Viergever, M. A., and Pluim, J. (2010). Elastix: A Toolbox for Intensity-Based Medical Image Registration. IEEE Trans. Med. Imaging 29, 196–205. doi:10.1109/TMI.2009.2035616 <br>
+[5] *elstix* : Shamonin, D. (2013). Fast Parallel Image Registration on CPU and GPU for Diagnostic Classification of Alzheimer's Disease. Front. Neuroinform. 7. doi:10.3389/fninf.2013.00050 <br>
+[6] *StarDist* : Uwe Schmidt, Martin Weigert, Coleman Broaddus, and Gene Myers. Cell Detection with Star-convex Polygons. International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), Granada, Spain, September 2018. <br>
+[7] *ZeroCostDL4Mic* : Lucas von Chamier*, Romain F. Laine*, Johanna Jukkala, Christoph Spahn, Daniel Krentzel, Elias Nehme, Martina Lerche, Sara Hernández-pérez, Pieta Mattila, Eleni Karinou, Séamus Holden, Ahmet Can Solak, Alexander Krull, Tim-Oliver Buchholz, Martin L Jones, Loic Alain Royer, Christophe Leterrier, Yoav Shechtman, Florian Jug, Mike Heilemann, Guillaume Jacquemet, Ricardo Henriques. Democratising deep learning for microscopy with ZeroCostDL4Mic. Nature Communications, 2021. DOI: https://doi.org/10.1038/s41467-021-22518-0 <br>
 
 ## Data availability
 We intend to upload the image data to public repository
