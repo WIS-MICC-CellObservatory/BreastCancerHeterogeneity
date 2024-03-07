@@ -70,20 +70,20 @@ The warpy transformations for the sample data are saved within the QuPath projec
 10. Extract cell type distribution and blood vessels area coverage for each region and its related surrounding ring from the annotation table 
 Steps 3-9 of the Analysis workflow are implemented in the script **SET1-FullAnalysis.groovy** 
 
-StarDist Model: 
-Data used for StarDist model training: 
-Classifiers:
-SET2: 
-Stardist: stardist_for_vishnu_v5
-RBC classifier: RBC-Classifier-FromStarDist-WithExpansion (should be placed in the project folder under classifiers\object_classifiers)
-Cell classifier: Tumor_Mac_TC_Classifier_v5               (should be placed in the project folder under classifiers\object_classifiers)
+<p> StarDist Model: <br/>
+Data used for StarDist model training: <br/>
+Classifiers:<br/>
+SET2: <br/>
+Stardist: stardist_for_vishnu_v5<br/>
+RBC classifier: RBC-Classifier-FromStarDist-WithExpansion (should be placed in the project folder under classifiers\object_classifiers)<br/>
+Cell classifier: Tumor_Mac_TC_Classifier_v5               (should be placed in the project folder under classifiers\object_classifiers)<br/>
 
-SET1: 
+SET1: <br/>
 Stardist: stardist_for_vishnu_v5
 The whole tissue pixel classifier for SET1: ExactTissue_v1 (should be placed in the project folder under classifiers\pixel_classifiers)
 BV Pixel classifier: BV-Classifier_v7					   (should be placed in the project folder under classifiers\pixel_classifiers)
 Cell classifier: alphaSMA-calssifier-4					   (should be placed in the project folder under classifiers\object_classifiers)
-
+</p>
 
 ## Dependencies
 QuPath version: mostly 0.3.2. and 0.4.2 for few slides where we encountered errors 
