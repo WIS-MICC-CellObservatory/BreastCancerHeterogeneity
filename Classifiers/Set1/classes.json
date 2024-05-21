@@ -1,0 +1,48 @@
+{
+  "pathClasses": [
+    {
+      "name": "Nuclei",
+      "color": -1
+    },
+    {
+      "name": "CD15",
+      "color": -10158081
+    },
+    {
+      "name": "CD31",
+      "color": -16711936
+    },
+    {
+      "name": "alphaSMA",
+      "color": -39681
+    },
+    {
+      "name": "Ignore*",
+      "color": -4934476
+    },
+    {
+      "name": "Other",
+      "color": -65536
+    },
+    {
+      "name": "CD31-alphaSMA",
+      "color": -16776961
+    },
+    {
+      "name": "BV",
+      "color": -16711681
+    },
+    {
+      "name": "Maybe-BV*",
+      "color": -13057
+    },
+    {
+      "name": "Not-BV*",
+      "color": -52
+    },
+    {
+      "name": "WholeTissue",
+      "color": -6491391
+    }
+  ]
+}
