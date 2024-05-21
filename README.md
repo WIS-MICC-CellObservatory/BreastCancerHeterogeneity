@@ -33,7 +33,7 @@ Software package: QuPath, StarDist, ZeroCostDL4Mic, Fiji (ImageJ), Warpy, elasti
 Workflow language: groovy
 
 <p align="center">
-<img src="https://github.com/WIS-MICC-CellObservatory/BreastCancerHeterogeneity/blob/master/PNG/Spatial Proteomics Workflow.png" width="750" title="Image Analysis Workflow">
+<img src="PNG/Spatial Proteomics Workflow.png" alt=""Image Analysis Workflow" width="750" title="Image Analysis Workflow">
 	<br/> <br/> </p>
 
 ## QuPath Workflow
