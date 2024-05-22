@@ -70,7 +70,7 @@ The warpy transformations for the sample data are saved within the QuPath projec
 10. Extract cell type distribution and blood vessels area coverage for each region and its related surrounding ring from the annotation table 
 Steps 3-9 of the Analysis workflow are implemented in the script **SET1-FullAnalysis.groovy** 
 
-<p> StarDist Model: <br/>
+<p> StarDist Model: <a href="https://doi.org/10.5281/zenodo.11235393"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.11235393.svg" alt="DOI"></a> <br/>
 Data used for StarDist model training: <br/>
 Classifiers:<br/>
 SET2: <br/>
