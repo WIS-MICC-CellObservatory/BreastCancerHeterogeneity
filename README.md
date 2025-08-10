@@ -101,5 +101,5 @@ https://doi.org/10.1038/s41598-017-17204-5 <br>
 [7] *ZeroCostDL4Mic* : Lucas von Chamier*, Romain F. Laine*, Johanna Jukkala, Christoph Spahn, Daniel Krentzel, Elias Nehme, Martina Lerche, Sara Hernández-pérez, Pieta Mattila, Eleni Karinou, Séamus Holden, Ahmet Can Solak, Alexander Krull, Tim-Oliver Buchholz, Martin L Jones, Loic Alain Royer, Christophe Leterrier, Yoav Shechtman, Florian Jug, Mike Heilemann, Guillaume Jacquemet, Ricardo Henriques. Democratising deep learning for microscopy with ZeroCostDL4Mic. Nature Communications, 2021. DOI: https://doi.org/10.1038/s41467-021-22518-0 <br>
 
 ## Data availability
-We intend to upload the image data to public repository
+All the image data and the analysis results are available on BioImage Archive, DOI: (https://doi.org/10.6019/S-BIAD1176), Accession: S-BIAD1176.
 
